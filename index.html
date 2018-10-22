@@ -42,8 +42,8 @@
             <a href="#projects">Projekty</a>
             <a href="#contact">Kontakt</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+                <i class="fa fa-bars"></i>
+            </a>
 
         </div>
     </nav>
@@ -55,7 +55,11 @@
             <h2>O mnie</h2>
             <div class="textabout">
 
-                <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
                 <img src="imgs/me.png" alt="WebDeveloperMarekKorsak"></img>
             </div>
@@ -91,15 +95,16 @@
 
         <div class="containerpro">
             <div class="card1">
-                <a href="https://masterkors.github.io/Fruits/" target="_blank"><img src="imgs/fruits.jpg" alt="Fruits"></a>
+                <a href="https://masterkors.github.io/Skateboard/" target="_blank"><img src="imgs/skateboard.jpg" alt="Fruits"></a>
                 <div class="containercard">
-                    <b>Fruits</b>
-                    <p>Html, Css, Parallax Scrolling</p>
+                    <b>Skateboard</b>
+                    <p>Html, Css, Js</p>
                 </div>
             </div>
 
             <div class="card1">
-                <a href="https://masterkors.github.io/Snowboard-Challenge/" target="_blank"><img src="imgs/SnowboardChallenge.png" alt="SnowboardChallenge"></a>
+                <a href="https://masterkors.github.io/Snowboard-Challenge/" target="_blank"><img src="imgs/SnowboardChallenge.png"
+                        alt="SnowboardChallenge"></a>
                 <div class="containercard">
                     <b>Snowboard Challenge</b>
                     <p>Html, Css, Js</p>
@@ -107,9 +112,9 @@
             </div>
 
             <div class="card1">
-                <a href="https://masterkors.github.io/Calculator/" target="_blank"><img src="imgs/calculator.png" alt="calculator"></a>
+                <a href="https://masterkors.github.io/SweetCake/." target="_blank"><img src="imgs/kitchen.jpg" alt="calculator"></a>
                 <div class="containercard">
-                    <b>Login</b>
+                    <b>SweetCake</b>
                     <p>Html, Css, Js</p>
                 </div>
             </div>
@@ -149,7 +154,8 @@
         </div>
 
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297071.4218077656!2d18.373638763849048!3d54.4299200297929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd0aa24f8d325b%3A0xf6d7e82b367965ac!2sTricity!5e0!3m2!1spl!2spl!4v1528391103722" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297071.4218077656!2d18.373638763849048!3d54.4299200297929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd0aa24f8d325b%3A0xf6d7e82b367965ac!2sTricity!5e0!3m2!1spl!2spl!4v1528391103722"
+                frameborder="0" allowfullscreen></iframe>
         </div>
 
     </section>
@@ -176,8 +182,8 @@
     <script>
         $('.nav').Stickyfill();
 
-        $(function() {
-            $('a[href*="#"]:not([href="#"])').click(function() {
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                     var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
