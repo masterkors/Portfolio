@@ -1,3 +1,3 @@
 # Portfolio
 
-DEMO: https://masterkors.github.io/Portfolio/.
+RUN DEMO https://usernamekors.github.io/Portfolio/
